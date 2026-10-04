@@ -1,208 +1,462 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Cyathrin Shrestha | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
+
 <body>
+
     <header>
-        <img src="image/logo.png" alt="My Logo" width="80">
+
+    <div class="header-container">
+
+        <div class="brand">
+            <img src="image/logo.png"
+                 alt="Cyathrin Portfolio Logo"
+                 class="logo">
+        </div>
+
         <nav>
             <ul>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
                 <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-
-            <form id="search-form">
-                <input type="search" id="search-input"
-                       placeholder="Search..." aria-label="Search portfolio">
-                <button type="submit">Search</button>
-            </form>
         </nav>
-    </header>
 
+        <div class="search-box">
+            <input type="search"
+                   placeholder="Search..."
+                   aria-label="Search">
+
+            <button type="button">Search</button>
+        </div>
+
+    </div>
+
+</header>
 
     <main>
         <section id="home">
-            <h2>Home</h2>
-            <p>Welcome to my portfolio website.</p>
+            <h2>Cyathrin Shrestha</h2>
+            <p>Welcome to My Portfolio</p>
         </section>
 
         <section id="about">
 
-            <h2>About Me</h2>
+            <div class="about-container">
 
-            <img src="image/img.jpeg" alt="My Photo" width="80">
 
-            <p>
-                I am a student interested in technology, programming,
-                and web development. I enjoy learning new things and
-                creating projects. I am continuously improving my
-                technical knowledge and practical skills through
-                academic learning and personal projects.
-            </p>
+                <div class="about-text">
+
+                    <h2>About Me</h2>
+
+                    <p>
+                        My name is Cyathrin Shrestha. I am a student
+                        interested in technology, programming, and
+                        web development.
+                    </p>
+
+                    <p>
+                        I enjoy learning new technologies, improving
+                        my programming skills, and working on
+                        computer-related projects.
+                    </p>
+
+                    <p>
+                        I am continuously improving my technical
+                        knowledge and practical skills through
+                        academic learning and personal projects.
+                    </p>
+
+                </div>
+
+
+                <div class="about-image">
+
+                    <img src="image/img.jpeg"
+                         alt="Profile photograph of Cyathrin Shrestha">
+
+                </div>
+
+
+            </div>
 
         </section>
 
+         <section id="skills">
+
+            <h2>Technical Skills</h2>
+
+
+            <dl>
+
+                <dt>
+                    <strong>HTML5</strong>
+                </dt>
+
+                <dd>
+                    Creating structured and semantic web pages.
+                </dd>
+
+
+                <dt>
+                    <strong>CSS3</strong>
+                </dt>
+
+                <dd>
+                    Designing attractive and responsive websites.
+                </dd>
+
+
+                <dt>
+                    <strong>JavaScript</strong>
+                </dt>
+
+                <dd>
+                    Adding interaction and functionality to web pages.
+                </dd>
+
+
+                <dt>
+                    <strong>Java</strong>
+                </dt>
+
+                <dd>
+                    Developing programs using object-oriented
+                    programming concepts.
+                </dd>
+
+
+                <dt>
+                    <strong>C Programming</strong>
+                </dt>
+
+                <dd>
+                    Learning programming fundamentals and
+                    problem-solving techniques.
+                </dd>
+
+
+                <dt>
+                    <strong>MySQL</strong>
+                </dt>
+
+                <dd>
+                    Creating and managing relational databases.
+                </dd>
+
+
+                <dt>
+                    <strong>Web Development</strong>
+                </dt>
+
+                <dd>
+                    Developing websites using HTML, CSS,
+                    JavaScript, and related technologies.
+                </dd>
+
+            </dl>
+
+        </section>
 
         <section id="education">
+
             <h2>Education</h2>
-            <table border="1">
-                <tr>
-                    <th>S.N.</th>
-                    <th>Level</th>
-                    <th>Institution</th>
-                    <th>Completion Date</th>
-                    <th>GPA</th>
-                    <th>Grade</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Secondary</td>
-                    <td>LRI School</td>
-                    <td>2022</td>
-                    <td>3.55</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>High School</td>
-                    <td>Nobel Academy</td>
-                    <td>2025</td>
-                    <td>3.32</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Bachelor's Degree</td>
-                    <td>MIT University</td>
-                    <td>Running</td>
-                    <td>Running</td>
-                    <td>Running</td>
-                </tr>
+
+
+            <table>
+
+                <caption>
+                    <strong>My Educational Background</strong>
+                </caption>
+
+
+                <thead>
+
+                    <tr>
+                        <th>S.N.</th>
+                        <th>Level</th>
+                        <th>Institution</th>
+                        <th>Status</th>
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <tr>
+                        <td>1</td>
+                        <td>Secondary</td>
+                        <td>Your School Name</td>
+                        <td>Completed</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>2</td>
+                        <td>Higher Secondary</td>
+                        <td>Your College Name</td>
+                        <td>Completed</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>3</td>
+                        <td>Undergraduate</td>
+                        <td>Your University Name</td>
+                        <td>Running</td>
+                    </tr>
+
+                </tbody>
+
             </table>
+
         </section>
 
-
-        <section id="skills">
-            <h2>My Technical Skills</h2>
-            <p>
-                I am developing my technical skills in programming,
-                web development, and database management through
-                academic learning and practical projects.
-            </p>
-            <dl>
-                <dt><strong>Programming Languages</strong></dt>
-                <dd>Java, C, C++, JavaScript</dd>
-
-                <dt><strong>Web Development</strong></dt>
-                <dd>HTML5, CSS3, Basic JavaScript</dd>
-
-                <dt><strong>Database Management</strong></dt>
-                <dd>MySQL, SQL</dd>
-
-                <dt><strong>Tools & Technologies</strong></dt>
-                <dd>Visual Studio Code, Git, GitHub</dd>
-
-                <dt><strong>Core Computer Science</strong></dt>
-                <dd>
-                    Object-Oriented Programming (OOP),
-                    Data Structures, Programming Logic,
-                    and Problem-Solving
-                </dd>
-            </dl>
-        </section>
-
+       
 
         <section id="projects">
+
             <h2>My Projects</h2>
+
             <article>
-                <h3>Portfolio Website</h3>
+
+                <h3>Personal Portfolio Website</h3>
+
                 <p>
-                    This is a personal portfolio website created using
-                    HTML and CSS. It provides information about me,
-                    my education, technical skills, and projects.
-                    The website presents my academic background and
-                    development skills in an organized way.
+                    This personal portfolio website was developed
+                    using HTML5 and CSS. It presents my personal
+                    information, educational background, technical
+                    skills, projects, and contact details in a
+                    simple and organized layout.
                 </p>
+
+                <a href="https://github.com/cyathrinstha"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    View Project on GitHub
+
+                </a>
+
             </article>
 
             <article>
-                <h3>Motorcycle Servicing System</h3>
+
+                <h3>
+                    Yamaha Motorcycle Servicing Booking System
+                </h3>
+
                 <p>
-                    This project is a website designed to make
-                    motorcycle servicing appointments easier for
-                    customers. Users can explore available services,
-                    select a suitable servicing date, and book an
-                    appointment. It aims to make the servicing
-                    process more organized and convenient.
+                    This project is designed to make motorcycle
+                    servicing easier for customers. It allows
+                    customers to view services, enter motorcycle
+                    information, book servicing appointments,
+                    and manage their bookings.
                 </p>
+
+                <p>
+                    It aims to make the servicing process more
+                    organized and convenient.
+                </p>
+
+                <a href="https://github.com/cyathrinstha"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    View Project on GitHub
+
+                </a>
+
             </article>
 
             <article>
+
                 <h3>Student Management System</h3>
+
                 <p>
                     This project is designed to manage student
                     information in an organized and efficient way.
                     It can store details such as student names,
-                    academic records, and other important information.
-                    The system helps make student record management
-                    easier and more systematic.
+                    academic records, courses, and other important
+                    student information.
                 </p>
+
+                <a href="https://github.com/cyathrinstha"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    View Project on GitHub
+
+                </a>
+
             </article>
+
         </section>
 
 
         <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Email: cyathrin8374@gmail.com</p>
-            <a href="https://www.linkedin.com/in/cyathrin-shrestha-35274341a/"
-               target="_blank" rel="noopener noreferrer">
-                <img src="image/linkedin.jpg" alt="LinkedIn" width="40">
-                LinkedIn
-            </a>
 
-            <a href="https://github.com/cyathrinstha"
-               target="_blank" rel="noopener noreferrer">
-                <img src="image/github.png" alt="GitHub" width="40">
-                GitHub
-            </a>
+            <div class="contact-container">
 
-            <a href="https://www.instagram.com/cya_thrin/"
-               target="_blank" rel="noopener noreferrer">
-                <img src="image/instagram.jpg" alt="Instagram" width="40">
-                Instagram
-            </a>
-            <br>
-            <form>
-                <label for="email">Email:</label>
-                <br>
-                <input type="email" id="email" name="email">
-                <br><br>
-                <label for="phone">Phone Number:</label>
-                <br>
-                <input type="tel" id="phone" name="phone">
-                <br><br>
-                <label for="message">Message:</label>
-                <br>
-                <textarea id="message" name="message"
-                          rows="4" cols="50"></textarea>
+                <h2>Contact Me</h2>
 
-                <br><br>
-                <button type="submit">Submit</button>
-            </form>
+
+                <p class="contact-email">
+                    Email:
+                    <a href="mailto:cyathrin8374@gmail.com">
+                        cyathrin8374@gmail.com
+                    </a>
+                </p>
+
+                <div class="social-links">
+
+                    <a href="https://www.linkedin.com/in/cyathrin-shrestha-35274341a/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        <img src="image/linkedin.jpg"
+                             alt="LinkedIn"
+                             width="40">
+
+                        <span>LinkedIn</span>
+
+                    </a>
+
+
+                    <!-- GITHUB -->
+
+                    <a href="https://github.com/cyathrinstha"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        <img src="image/github.png"
+                             alt="GitHub"
+                             width="40">
+
+                        <span>GitHub</span>
+
+                    </a>
+
+
+                    <!-- INSTAGRAM -->
+
+                    <a href="https://www.instagram.com/cya_thrin/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        <img src="image/instagram.jpg"
+                             alt="Instagram"
+                             width="40">
+
+                        <span>Instagram</span>
+
+                    </a>
+
+                </div>
+
+
+                <!-- CONTACT FORM -->
+
+                <div class="contact-form-box">
+
+                    <h3>Send Me a Message</h3>
+
+
+                    <form action="#" method="post">
+
+
+                        <!-- EMAIL -->
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email:
+                            </label>
+
+                            <input type="email"
+                                   id="email"
+                                   name="email"
+                                   placeholder="Enter your email"
+                                   required>
+
+                        </div>
+
+
+                        <!-- PHONE NUMBER -->
+
+                        <div class="form-group">
+
+                            <label for="phone">
+                                Phone Number:
+                            </label>
+
+                            <input type="tel"
+                                   id="phone"
+                                   name="phone"
+                                   placeholder="Enter your phone number">
+
+                        </div>
+
+
+                        <!-- MESSAGE -->
+
+                        <div class="form-group">
+
+                            <label for="message">
+                                Message:
+                            </label>
+
+                            <textarea id="message"
+                                      name="message"
+                                      rows="5"
+                                      placeholder="Write your message..."
+                                      required></textarea>
+
+                        </div>
+
+
+                        <button type="submit">
+                            Submit
+                        </button>
+
+
+                    </form>
+
+                </div>
+
+
+            </div>
+
         </section>
+
+
     </main>
 
-
     <footer>
-        <p>Copyright &copy; 2026 Cyathrin Shrestha</p>
+
+        <p>
+            &copy; 2026 Cyathrin Shrestha.
+            All Rights Reserved.
+        </p>
+
     </footer>
 
+
 </body>
+
 </html>
